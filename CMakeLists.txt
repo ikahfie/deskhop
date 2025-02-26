@@ -8,7 +8,7 @@ set(VERSION_MINOR 170)
 option(DH_DEBUG "Build a debug version" OFF)
 
 ## Hardware Configuration
-set(DP_PIN_DEFAULT 14 CACHE STRING "Default USB D+ Pin Number")
+set(DP_PIN_DEFAULT 0 CACHE STRING "Default USB D+ Pin Number")
 set(PIO_USE_TINYUSB 1 CACHE STRING "Make TinyUSB Manage the PIO USB Port")
 set(PICO_BOARD "pico")
 
